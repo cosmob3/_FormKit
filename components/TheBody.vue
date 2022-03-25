@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center gap-6">
+  <div class="flex flex-wrap justify-center gap-6">
     <img
       src="https://images.pexels.com/photos/1549528/pexels-photo-1549528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       alt="Trash"
