@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p class="bg-gray-900 text-white p-8 flex justify-center items-end">
+    <p class="bg-black text-white p-8 flex justify-center items-end text-2xl">
       &copy; Bryan Velasco 2022
     </p>
   </div>
