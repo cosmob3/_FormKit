@@ -25,9 +25,7 @@
 const text = "You can't spell TRASH without ASH";
 
 const init = async () => {
-  const response = await fetch(
-    "C:\Users\bryan\Documents\code-tests\03-25-NuxtWebJoke\nuxt3-joke\functions\signs.js"
-  );
+  const response = await fetch("../.netlify/functions/signs.js");
   const data = await response.json();
 
   const ashLens = data.find((item) => item.caption.includes("#ashlens"));
