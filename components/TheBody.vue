@@ -17,7 +17,7 @@
     >
       {{ text }}
     </h2>
-    <article class="container"></article>
+    <article class="container w-full"></article>
   </div>
 </template>
 
