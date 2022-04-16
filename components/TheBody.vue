@@ -32,7 +32,7 @@ const init = async () => {
 
   document.querySelector(".container").innerHTML = `
   <figure>
-    <img src="${ashLens.media_url}" alt="Photo from instagram"
+    <img src="${ashLens.url}" alt="Photo from instagram"
     <figcaption>${ashLens.caption}</figcaption>
   </figure>
   `;
