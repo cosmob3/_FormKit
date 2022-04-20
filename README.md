@@ -18,8 +18,8 @@
 
 ## Points
 
-Total (with Tool time) = **35pts**
-Total (without Tool time) = **30pts**
+- Total (with Tool time) = **35pts**
+- Total (without Tool time) = **30pts**
 
 ### As of 4/20/2022
 
