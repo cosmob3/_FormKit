@@ -17,6 +17,7 @@
     >
       {{ text }}
     </h2>
+    <pre>{{ data }}</pre>
     <article class="container w-full"></article>
   </div>
 </template>
@@ -25,17 +26,18 @@
 const text = "You can't spell TRASH without ASH";
 
 const init = async () => {
-  const response = await fetch("../.netlify/functions/signs.js");
+  const response = await fetch("/.netlify/functions/signs");
   const data = await response.json();
 
-  const ashLens = data.find((item) => item.caption.includes("#ashlens"));
+  // const ashLens = data.find((item) => item.caption.includes("#ashlens"));
 
-  document.querySelector(".container").innerHTML = `
-  <figure>
-    <img src="${ashLens.url}" alt="Photo from instagram"
-    <figcaption>${ashLens.caption}</figcaption>
-  </figure>
-  `;
+  // document.querySelector(".container").innerHTML = `
+  // <figure>
+  //   <img src="${ashLens.url}" alt="Photo from instagram"
+  //   <figcaption>${ashLens.caption}</figcaption>
+  // </figure>
+  // `;
+  console.log(data);
 };
 
 init();
