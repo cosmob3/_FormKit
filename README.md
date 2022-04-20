@@ -18,13 +18,16 @@
 
 ## Points
 
+Total (with Tool time) = **35pts**
+Total (without Tool time) = **30pts**
+
 ### As of 4/20/2022
 
-- Mini-workshop **10pts**
-- Licensed theme song **5pts**
-- Slides **5pts**
-- Step-by-step gist **5pts**
-- Tool time **5pts**
+- Mini-workshop: **10pts**
+- Licensed theme song: **5pts**
+- Slides: **5pts**
+- Step-by-step gist: **5pts**
+- Tool time: **5pts**?
 
 ### As of 4/11/2022
 
