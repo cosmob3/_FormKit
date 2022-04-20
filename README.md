@@ -4,7 +4,7 @@
 
 ## Links
 
-- [Github](https://github.com/cosmob3/for-fun)
+- [Github](https://github.com/cosmob3/_FormKit)
 - [Gist w steps](https://gist.github.com/cosmob3/66c446cefa9f0cb3c9099e2a92e8b8cf)
 - [Netlify](https://effulgent-sorbet-52cbda.netlify.app/)
 
