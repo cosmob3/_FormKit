@@ -16,7 +16,7 @@
       <NuxtLink
         class="px-10 text-white hover:text-orange-500 bg-violet-500 text-3xl"
         to="/contact"
-        >Contact</NuxtLink
+        >Contact Form</NuxtLink
       >
     </div>
   </div>
