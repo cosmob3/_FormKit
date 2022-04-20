@@ -1,5 +1,7 @@
 <script setup>
 import { ref } from "vue";
+import "@formkit/themes/genesis";
+
 const submitted = ref(false);
 const formData = ref({});
 const submitHandler = async () => {
@@ -11,13 +13,15 @@ const submitHandler = async () => {
 
 <template>
   <div class="flex justify-center">
+    <!-- Beginning of Form -->
     <FormKit
       type="form"
       v-model="formData"
       :form-class="submitted ? 'hide' : 'show'"
       submit-label="Submit"
+      action="https://formspree.io/f/mpzbyeyl"
+      method="post"
       @submit="submitHandler"
-      submit-label-class="bg-grey-700 text-white"
     >
       <h1 class="text-4xl font-semibold">Get in touch!</h1>
       <p>
@@ -25,7 +29,7 @@ const submitHandler = async () => {
         form below and I’ll get back to you within 48 hours..
       </p>
       <hr class="pb-10" />
-
+      <!-- Name -->
       <FormKit
         type="text"
         name="name"
@@ -39,6 +43,7 @@ const submitHandler = async () => {
         input-class="w-full h-10 px-3 border-none text-base text-gray-700 placeholder-gray-400"
         help-class="text-xs text-gray-500"
       />
+      <!-- Email -->
       <FormKit
         type="text"
         name="email"
@@ -56,6 +61,7 @@ const submitHandler = async () => {
           help: 'text-xs text-gray-500',
         }"
       />
+      <!-- Textarea -->
       <FormKit
         type="textarea"
         name="text"
