@@ -21,7 +21,6 @@ const submitHandler = async () => {
       submit-label="Submit"
       action="https://formspree.io/f/mpzbyeyl"
       method="post"
-      @submit="submitHandler"
     >
       <h1 class="text-4xl font-semibold">Get in touch!</h1>
       <p>
