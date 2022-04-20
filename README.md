@@ -1,3 +1,7 @@
-IGQVJWQWRxQ1E2c3NHOUFBLTI3SGpzRjNhZAEJvYm5GajdKWjNtZAmRvTURFQktmSE15Ri13RmxFRXdhRThxT3ZAGNkswV2xKSFNBdGxYVUdvXzNHa2JHTktUNWxOZA2ZABQVVObUIwR3ZAFMWc3bHVhR2ZASOAZDZD
+# CPNT-265 / \_FormKit Repo / Bryan Velasco
 
-id: 49284337254
+## Links
+
+- [Github](https://github.com/cosmob3/for-fun)
+- [Gist w steps](https://gist.github.com/cosmob3/66c446cefa9f0cb3c9099e2a92e8b8cf)
+- [Netlify](https://effulgent-sorbet-52cbda.netlify.app/)
