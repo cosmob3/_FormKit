@@ -15,3 +15,17 @@
 - Audio:
   - The Entertainer by Kevin MacLeod song link: https://incompetech.filmmusic.io/song/5765-the-entertainer/
   - License link: https://incompetech.filmmusic.io/standard-license
+
+## Points
+
+### As of 4/20/2022
+
+- Mini-workshop **10pts**
+- Licensed theme song **5pts**
+- Slides **5pts**
+- Step-by-step gist **5pts**
+- Tool time **5pts**
+
+### As of 4/11/2022
+
+- First Responder **5pts**
